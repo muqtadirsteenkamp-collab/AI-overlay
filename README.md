@@ -106,6 +106,4 @@ async def dashboard(request: Request):
     </html>
     """
     return HTMLResponse(content=html_content)
-fastapi
-uvicorn
-pydantic
+
